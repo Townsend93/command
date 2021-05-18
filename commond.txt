@@ -1,0 +1,68 @@
+flutter create --template module my_flutter
+// 经纪云
+flutter build ios-framework --cocoapods --xcframework --no-universal --output=/Users/ruiyun.tech/Desktop/project/Flutter/BrokerageCloud/
+// 销售
+flutter build ios-framework --cocoapods --xcframework --no-universal --output=/Users/ruiyun.tech/Desktop/project/Flutter/salesTools/
+// 高管
+flutter build ios-framework --cocoapods --xcframework --no-universal --output=/Users/ruiyun.tech/Desktop/project/Flutter/executive/
+
+/Users/ruiyun.tech/Desktop/Mix/mix_ios/Flutter
+/Users/ruiyun.tech/Desktop/project
+
+flutter build ios-framework --xcframework --no-universal --output=some/path/MyApp/Flutter/
+
+
+flutter packages pub run build_runner build
+
+
+ssh-keygen –t rsa –C "824376052@qq.com"
+
+flutter build ios-framework --xcframework --no-universal
+
+pod spec lint YJYExecutiveFlutter.podspec --skip-import-validation --allow-warnings
+折中方法可以添加 --skip-import-validation, 将跳过验证 pod 是否可以导入阶段。
+#验证
+pod lib lint --sources=http://gitlab.yuejia100.com.cn/iOS/YJYPods.git --skip-import-validation --allow-warnings
+#发布
+Release
+
+pod repo push com-ios-yjypods YJYExecutiveFlutter.podspec --skip-import-validation --allow-warnings
+
+Debug
+
+pod repo push com-ios-yjypods YJYExecutiveFlutter-Debug.podspec --skip-import-validation --allow-warnings
+
+pod repo push com-ios-yjypods YJYSalesFlutter.podspec --skip-import-validation --allow-warnings
+
+pod repo push com-ios-yjypods YJYFlutterSDK.podspec --skip-import-validation --allow-warnings
+
+#移除
+pod repo remove [repo_name]
+#添加
+pod repo add [repo_name] [repo_url] 	
+
+61.139.2.69
+
+git clone --depth=1 https://git.oschina.net/xxxxxx.git 
+
+gitee  
+yuhuan_s 
+Yh123456
+
+Registered Name:https://zhile.io
+License Key: 48891cf209c6d32bf4
+
+2b3e201690
+
+
+com-ios-yjypods
+http://gitlab.yuejia100.com.cn/iOS/YJYPods.git
+
+
+空安全迁移
+自动迁移
+dart migrate --apply-changes
+手动迁移
+dart migrate
+
+dart pub outdated --mode=null-safety
